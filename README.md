@@ -8,7 +8,7 @@ https://www.trufflesuite.com/docs/truffle/getting-started/using-truffle-develop-
 npx truffle develop
 ```
 
-## ローカルでブロックチェーンを実際に起動して truffle から接続する
+## ローカルでブロックチェーンを実際に起動して truffle から接続する（オプション）
 
 ```
 npx ganache-cli
@@ -147,4 +147,9 @@ truffle(develop)> instance.changeName("Guns N' Roses")
 }
 truffle(develop)> instance.name()
 "Guns N' Roses"
+```
+
+## Truffle Console を終了する
+```
+truffle(develop)> .exit
 ```
